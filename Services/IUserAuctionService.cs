@@ -11,4 +11,5 @@ public interface IUserAuctionService
     Task AddUserAuctionAsync(UserAuction entity);
     Task UpdateUserAuctionAsync(UserAuction entity);
     Task DeleteUserAuctionAsync(string userId, string auctionId);
+    Task JoinAuctionAsync(string groupId, string connectionId, UserAuction entity);
 }

@@ -8,5 +8,4 @@ public interface IAuctionService
     Task AddAuctionAsync(Auction auction);
     Task UpdateAuctionAsync(Auction auction);
     Task DeleteAuctionAsync(long id);
-    Task JoinAuctionAsync(string groupId, string connectionId);
 }
